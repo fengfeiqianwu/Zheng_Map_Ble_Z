@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zhuoh.zheng_map_ble_z.MainActivity">
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="top|center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="10dp"
+        android:background="@color/black"
+        android:layout_alignParentTop="true"
+        android:text="@string/title"
+        android:layout_alignParentStart="true" />
+    <LinearLayout
+        android:id="@+id/test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_title"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <Button
+            android:id="@+id/btn_lochelper"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:drawableTop="@drawable/gps_device_48"
+            android:text="@string/locationhelper" />
+        <TextView
+            android:id="@+id/text_lochelper2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/btn_roadtest"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:drawableTop="@drawable/road_48"
+            android:text="@string/roadtestsearch" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/test1"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <Button
+            android:id="@+id/btn_datasearch"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:drawableTop="@drawable/search_48"
+            android:text="@string/datasearch" />
+        <TextView
+            android:id="@+id/text_lochelper3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/btn_baseloc"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:drawableTop="@drawable/base_station_48"
+            android:text="@string/baseloc" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/test3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/test2"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <Button
+            android:id="@+id/btn_sysset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:drawableTop="@drawable/system_setting_48"
+            android:text="@string/sysset" />
+        <TextView
+            android:id="@+id/text_lochelper4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/btn_devicecon"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:drawableTop="@drawable/device_48"
+            android:text="@string/devicecon" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/main_line_2"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@color/black"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/test3"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/tv_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="left|center"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

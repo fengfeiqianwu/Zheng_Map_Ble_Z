@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">定位辅助系统</string>
+
+    <string name="BT_lost">蓝牙丢失</string>
+    <string name="BT_disable">无法连接蓝牙</string>
+
+
+    <string name="sound">音量</string>
+    <string name="disconnect">断开</string>
+    <string name="connect">连接</string>
+
+
+    <string name="state_disconnect">未连接</string>
+    <string name="state_connecting">正在连接&#8230;</string>
+    <string name="state_connected">已连接:</string>
+    <string name="state">状态</string>
+
+
+    <string name="web">网络</string>
+    <string name="GSM">GSM</string>
+    <string name="WCDMA">WCDMA</string>
+    <string name="FDD">4G-FDD</string>
+    <string name="freq">频点</string>
+
+
+    <string name="Arfcn">Arfcn</string>
+    <string name="Earfcn">Earfcn</string>
+    <string name="Uarfcn">Uarfcn</string>
+
+    <string name="param">扰码</string>
+    <string name="PCI">PCI</string>
+    <string name="config">设置</string>
+    <string name="strength">强度</string>
+
+    <string name="bt_not_enabled_leaving">蓝牙未启用。程序退出</string>
+
+    <string name="T_38400">38400</string>
+    <string name="T_38450">38450</string>
+    <string name="T_38544">38544</string>
+    <string name="T_37900">37900</string>
+    <string name="T_37950">37950</string>
+    <string name="T_38098">38098</string>
+    <string name="T_38950">38950</string>
+    <string name="T_39148">39148</string>
+    <string name="other">其他</string>
+
+    <string name="W_10713">10713</string>
+    <string name="W_10688">10688</string>
+    <string name="W_10663">10663</string>
+    <string name="F_1650">1650</string>
+    <string name="F_1825">1825</string>
+    <string name="F_75">75</string>
+    <string name="F_100">100</string>
+
+    <!--DeviceActivity-->
+    <string name="scanning">扫描未知设备&#8230;</string>
+    <string name="select_device">选择一个设备连接</string>
+    <string name="none_paired">没有已配对设备</string>
+    <string name="none_found">没有建立连接</string>
+    <string name="paired_devices">配对的装备</string>
+    <string name="other_devices">其他可用的设备</string>
+    <string name="scan_device">扫描设备</string>
+
+
+    <!--Dialog-->
+    <string name="ChooseUarfcn_W">WCDMA频点选择</string>
+    <string name="ChooseEarfcn_TDD">4G-TDD频点选择</string>
+    <string name="ChooseEarfcn_FDD">4G-FDD频点选择</string>
+    <string name="Confirm">确定</string>
+    <string name="Cancel">取消</string>
+
+    <!--Caution-->
+    <string name="Cation_SyncComplete">同步完成</string>
+    <string name="Cation_Init">初始化</string>
+    <string name="Cation_Disconnected">蓝牙未连接</string>
+    <string name="Cation_SwitchNetWork">模式切换中&#8230;</string>
+    <string name="Cation_Arfcn">请输入正确频点</string>
+    <string name="Cation_Uarfcn">请输入正确频点</string>
+    <string name="Cation_Earfcn">请输入正确频点</string>
+    <string name="Cation_PCI">请输入PCI(1~502)</string>
+    <string name="Cation_Exit">再按一次后退键退出程序</string>
+    <string name="Cation_Earfcn_TDD">TDD频点范围(36000~45590)</string>
+    <string name="Cation_Earfcn_FDD_DL">FDD下行频点范围(0~8040)</string>
+    <string name="Cation_Uarfcn_W_DL">WCDMA下行频点范围（10562~10838）</string>
+
+
+    <string name="Exit">退出</string>
+    <string name="Exit_Message">退出手机测向仪？</string>
+
+    <!--Ble_connect-->
+    <string name="bl_connect">连接</string>
+    <string name="bl_disconnect">断开</string>
+
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="start">开始</string>
+    <string name="finish">结束</string>
+    <string name="pause">暂停</string>
+    <string name="con">继续</string>
+    <string name="roadtest">路测</string>
+    <string name="neizone">邻区</string>
+    <string name="webmodule">全网路测模块</string>
+    <string name="nonstart">未开始，请先开始</string>
+    <string name="nonconnect">蓝牙未连接，请先连接蓝牙</string>
+    <string name="switchnei">请在单模式下使用邻区</string>
+
+    <!--主界面-->
+    <string name="title">定位辅助系统</string>
+    <string name="locationhelper">定位助手</string>
+    <string name="roadtestsearch">路测采集</string>
+    <string name="datasearch">数据查询</string>
+    <string name="baseloc">基站定位</string>
+    <string name="sysset">系统设置</string>
+    <string name="devicecon">设备连接</string>
+</resources>
+
+

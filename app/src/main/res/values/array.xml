@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="web">
+        <item>TDD</item>
+        <item>TD-SCDMA</item>
+        <item>MGSM</item>
+        <item>UFDD</item>
+        <item>WCDMA</item>
+        <item>UGSM</item>
+        <item>TFDD</item>
+        <item>CDMA</item>
+    </string-array>
+</resources>

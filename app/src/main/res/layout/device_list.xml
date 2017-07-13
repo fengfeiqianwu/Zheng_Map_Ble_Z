@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_paired_device"
+        android:text="@string/paired_devices"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:background="#bb000000"
+        android:textIsSelectable="false"
+        android:paddingLeft="18dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listV_paried_device"
+        android:layout_weight="2"
+        android:layout_marginTop="4dp"
+        android:dividerHeight="1dp"
+        android:divider="#aa000000"
+        android:layout_marginBottom="4dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_new_device"
+        android:text="@string/other_devices"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:background="#bb000000"
+        android:textIsSelectable="false"
+        android:paddingLeft="18dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listV_new_device"
+        android:dividerHeight="1dp"
+        android:layout_weight="3"
+        android:layout_marginTop="4dp"
+        android:divider="#aa000000"
+        android:layout_marginBottom="4dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/scan_device"
+        android:id="@+id/btn_scan"
+        android:background="@drawable/button_blue_selector"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_margin="8dp" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.xy.vera.mbdn.MainActivity">
+
+
+
+    <item
+        android:id="@+id/start"
+        android:orderInCategory="9"
+        android:title="@string/start"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/finish"
+        android:orderInCategory="10"
+        android:title="@string/finish"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/pause"
+        android:orderInCategory="11"
+        android:title="@string/pause"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/con"
+        android:orderInCategory="12"
+        android:title="@string/con"
+        app:showAsAction="never" />
+</menu>
